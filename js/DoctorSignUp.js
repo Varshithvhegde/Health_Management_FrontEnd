@@ -88,14 +88,14 @@ function checkRequired(inputArr) {
 
 
 //Event Listners
-form.addEventListener("submit", function (e) {
-    e.preventDefault();
-    checkRequired([user_name, email, password, phone_number]);
-    checkLength(user_name, 2, 15);
-    checkLength(email, 3, 60);
-    checkLength(password, 6, 10);
-    checkLength(phone_number, 10, 10);
-    if (!isError) {
-        doRequest(user_name, email, password, phone_number, designation);
-    }
-});
+// form.addEventListener("submit", function (e) {
+//     e.preventDefault();
+//     checkRequired([user_name, email, password, phone_number]);
+//     checkLength(user_name, 2, 15);
+//     checkLength(email, 3, 60);
+//     checkLength(password, 6, 10);
+//     checkLength(phone_number, 10, 10);
+//     if (!isError) {
+//         doRequest(user_name, email, password, phone_number, designation);
+//     }
+// });
