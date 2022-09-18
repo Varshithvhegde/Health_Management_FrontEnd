@@ -35,7 +35,7 @@ function doRequest(mail, pass) {
 
 }
 
-button.addEventListener('click', (e) => {
-    e.preventDefault()
-    doRequest(email, password);
-})
+// button.addEventListener('click', (e) => {
+//     e.preventDefault()
+//     doRequest(email, password);
+// })
